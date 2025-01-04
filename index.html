@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wish</title>
+    <style>
+        /* Global body styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ff4b2b, #ff416c);
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+
+        /* Main container styling */
+        .container {
+            max-width: 650px;
+            margin: auto;
+            background: #fff;
+            color: #333;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        /* Heading styling */
+        h1 {
+            font-size: 3rem;
+            color: #ff416c;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(255, 65, 108, 0.5);
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 1.4rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            font-size: 1.2rem;
+            color: #fff;
+            background: #ff416c;
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(255, 65, 108, 0.3);
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(255, 65, 108, 0.5);
+        }
+
+        /* Message styling */
+        #message {
+            display: none;
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: #ff416c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday! SHOKAT  SHB </h1>
+        <p>
+            May your life always run on a super-fast CPU,
+        your happiness never hit a breakpoint,and success compile without errors! 😎
+        </p>
+        <p>
+            You deserve the world and more on your special day!
+        </p>
+        <!-- Button triggers a message -->
+        <button class="btn" onclick="showMessage()">Celebrate Now</button>
+        <p id="message">🎉 Thank you for celebrating with us! 🎉
+<br>SORRY FOR LATE JANU 
+</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
